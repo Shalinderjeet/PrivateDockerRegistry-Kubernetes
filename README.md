@@ -4,6 +4,7 @@ Description:- Create Secret for credentials for the private Docker registry
               Configure the Docker registry secret in application Deployment component
               Deploy web application image from our private Docker registry
               
+
 Pre-requisites:-  Create Docker Private Repo (ECR) on AWS           
 ------------------------------------------------------------------------------------------------------------------------------------
 
