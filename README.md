@@ -15,7 +15,7 @@ b) Configure Deployment/Pod with imagePullSecrets
 
 
 -----------------------------------------------------------------------------------------------------------------------------
-Execution Order:- Please refer 
+Execution Order:- Please refer cli-commands.md file
 
 Docker login comamnd will -create config.json file for secret
 Use config.json content in secret file.
