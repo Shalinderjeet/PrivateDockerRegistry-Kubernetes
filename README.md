@@ -4,6 +4,7 @@ Description:- Create Secret for credentials for the private Docker registry
               Configure the Docker registry secret in application Deployment component
               Deploy web application image from our private Docker registry
               
+Pre-requisites:-  Create Docker Private Repo (ECR) on AWS           
 ------------------------------------------------------------------------------------------------------------------------------------
 
 Steps to pull your images from Private Registry
@@ -12,5 +13,8 @@ a) Create a secret component that contains access tokens (credentials) for Docke
 
 b) Configure Deployment/Pod with imagePullSecrets
 
-c) Create Docker Private Repo (ECR) on AWS
 
+-----------------------------------------------------------------------------------------------------------------------------
+Execution:-
+
+a) Docker login -create config.json file for secret
