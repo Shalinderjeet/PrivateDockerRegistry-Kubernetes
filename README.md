@@ -14,7 +14,7 @@ a) Create a secret component that contains access tokens (credentials) for Docke
 
 b) Configure Deployment/Pod with imagePullSecrets
 
-
+Create them in the same namespace
 -----------------------------------------------------------------------------------------------------------------------------
 Execution Order:- Please refer cli-commands.md file
 
